@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    padding: 9px 10px;
+    background-color: #BFCCB5;
+    color: #4F200D;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 700;
+    color: #4F200D;
+    text-decoration: none;
+    font-family: 'Tangerine', cursive;
+}
+
+header nav {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+header ul {
+    margin: 0;
+    padding: 12px 0;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+header li {
+    display: inline-block;
+}
+
+header li+li {
+    margin-left: 20px;
+}
+
+header li > a {
+    color: #4F200D;
+    text-decoration: none;
+}
+header li>a:hover {
+    text-decoration: underline;
+}
+
+/* Main Styles */
+main {
+    padding-top: 70px;
+}
+
+h1 {
+    font-family: 'Tangerine', cursive;
+    font-weight: 700;
+    font-size: 80px;
+    background-color: rgba(79, 32, 13, 0.8);
+    border-radius: 50%;
+    width: 50%;
+    color: #BFCCB5;
+    text-align: center;
+    padding: 30px 0;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Tangerine', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    background-color: rgb(183, 183, 183);
+    width: 100%;
+    color: #4F200D;
+    text-align: center;
+    padding: 15px 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 45px;
+    /* font-weight: 300; */
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+}
+
+#mission .content {
+    background-image: url("https://images.unsplash.com/photo-1492158244976-29b84ba93025?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+}
+
+#coffees .content {
+    max-width: 100%;
+    width: 80%;
+    margin: auto;
+    padding: 40px 0 60px;
+}
+
+#coffees .flex .items {
+    flex: 0 1 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#coffees img {
+    width: 300px;
+    height: 200px;
+}
+
+figcaption {
+    margin-top: 10px;
+    text-align: center;
+}
+
+figcaption .name {
+    font-size: 20px;
+}
+
+#team .content {
+    width: 100%;
+    padding: 40px 0 60px;
+    background-color: #7C96AB;
+}
+
+#team .flex .items {
+    flex: 0 1 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#team img {
+    width: 300px;
+    height: 500px;
+}
+
+#contact .content {
+    height: 200px;
+    text-align: center;
+    padding: 30px 0;
+    background: linear-gradient(0deg, rgba(183, 183, 183, 0.8), rgba(183, 183, 183, 0.8)), url("https://media.istockphoto.com/id/1397527671/photo/coffee-beans-spilled-out-from-burlap-sack.jpg?s=1024x1024&w=is&k=20&c=75O_QTLhGnPog0Qv5eLKIk-J668TTqEFHdIyAJU9Ybg=");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px;
+    background-color: #EDC6B1;
+    color: #4F200D;
+}
+
+footer .designer {
+    float: right;
+}
